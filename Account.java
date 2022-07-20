@@ -33,7 +33,6 @@ public class Account {
     }
 
     public static void main(String[] args) throws Exception, NotEnoughMoneyException {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Introduceti numarul contului accountNo=");
         String accountNo =scanner.next();
         System.out.println(accountNo);
